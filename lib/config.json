@@ -1,0 +1,45 @@
+{
+  "ConfigFile": { "Preferences": "p", "FeatureFlags": "f" },
+  "Preferences": { "BaseUrl": "u", "Redirect": "r" },
+  "Setting": {
+    "Value": "v",
+    "SettingType": "t",
+    "RolloutPercentageItems": "p",
+    "RolloutRules": "r",
+    "VariationId": "i"
+  },
+  "RolloutRules": {},
+  "RolloutPercentageItems": {},
+  "ConfigJSON": {
+    "p": { "u": "https://cdn-global.configcat.com", "r": 0 },
+    "f": {
+      "sugconfr": { "v": false, "i": "f284f8ee", "t": 0, "p": [], "r": [] },
+      "newaboutpage": {
+        "v": false,
+        "i": "d206cdb8",
+        "t": 0,
+        "p": [
+          { "o": 0, "v": true, "p": 50, "i": "13469742" },
+          { "o": 1, "v": false, "p": 50, "i": "d206cdb8" }
+        ],
+        "r": []
+      },
+      "userFromFrance": {
+        "v": false,
+        "i": "df30e0c3",
+        "t": 0,
+        "p": [],
+        "r": [
+          {
+            "o": 0,
+            "a": "Country",
+            "t": 0,
+            "c": "FR",
+            "v": true,
+            "i": "5e8e6e37"
+          }
+        ]
+      }
+    }
+  }
+}
